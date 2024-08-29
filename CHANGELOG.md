@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.2](https://github.com/dreulavelle/PTT/compare/v1.2.1...v1.2.2) (2024-08-27)
+
+
+### Bug Fixes
+
+* fixed remux and shang-chi title returning as chinese ([6088ce3](https://github.com/dreulavelle/PTT/commit/6088ce394887ddada9b5e8560e658ec3962f9794))
+
+## [1.2.1](https://github.com/dreulavelle/PTT/compare/v1.2.0...v1.2.1) (2024-08-26)
+
+
+### Bug Fixes
+
+* added translate langs to parse_title as well ([0324964](https://github.com/dreulavelle/PTT/commit/032496493cfbb4c92de0c5532784b70aff96c4ac))
+
 ## [1.2.0](https://github.com/dreulavelle/PTT/compare/v1.1.0...v1.2.0) (2024-08-26)
 
 
