@@ -108,7 +108,7 @@ def parser():
         "title": "Maman, j'ai raté l'avion",
         "quality": "BluRay",
         "year": 1990,
-        "audio": ["DTS Lossy"],
+        "audio": ["DTS"],
         "resolution": "1080p",
         "languages": ["fr"],
         "codec": "hevc",
@@ -308,7 +308,7 @@ def parser():
         "quality": "BluRay REMUX",
         "resolution": "2160p",
         "channels": ["7.1"],
-        "audio": ["Atmos", "TrueHD"],
+        "audio": ["Dolby TrueHD", "Atmos"],
         "codec": "hevc",
         "languages": [],
         "seasons": [],
@@ -351,7 +351,7 @@ def parser():
         "quality": "BluRay",
         "codec": "hevc",
         "bit_depth": "10bit",
-        "audio": ["AC3", "AAC"],
+        "audio": ["AAC"],
         "channels": ["5.1"]
     }),
     ("[DB]_Bleach_264_[012073FE].avi", {
@@ -396,7 +396,7 @@ def parser():
         "edition": "Anniversary Edition",
         "quality": "BluRay REMUX",
         "resolution": "1080p",
-        "audio": ["DTS Lossless"],
+        "audio": ["DTS-HD MA"],
         "channels": ["5.1"],
         "codec": "avc",
         "group": "LEGi0N"
@@ -412,7 +412,7 @@ def parser():
         "quality": "BluRay",
         "codec": "hevc",
         "bit_depth": "10bit",
-        "audio": ["Atmos", "TrueHD"],
+        "audio": ["Dolby TrueHD", "Atmos"],
         "channels": ["7.1"],
         "hdr": ["HDR"],
         "group": "BOREDOR"
@@ -426,8 +426,8 @@ def parser():
         "quality": "BDRip",
         "codec": "hevc",
         "resolution": "1896x1048p",  # this needs to be 1080p instead probably
-        "audio": ["TrueHD", "FLAC", "AC3"],
-        "channels": ["5.1"],
+        "audio": ["Dolby TrueHD", "FLAC", "AC3"],
+        "channels": ["5.1", "2.0"],
         # "group": "sxales",
         "dubbed": True,
         "container": "mkv",
@@ -448,7 +448,7 @@ def parser():
         "container": "mkv",
         "extension": "mkv",
         "bitrate": "384kbps",
-        "audio": ["TrueHD", "Dolby Digital Plus", "AAC"],
+        "audio": ["Dolby Digital Plus", "AAC"],
         "channels": ["5.1"],
     }),
     ("www.5MovieRulz.show - Khel Khel Mein (2024) 1080p Hindi DVDScr - x264 - AAC - 2.3GB.mkv", {
@@ -503,7 +503,7 @@ def parser():
         "episodes": [],
         "quality": "BDRip",
         "codec": "hevc",
-        "audio": ["DTS Lossless"],
+        "audio": ["DTS-HD MA"],
         "channels": ["5.1"],
         "container": "mkv",
         "extension": "mkv",
@@ -712,7 +712,7 @@ def parser():
         "resolution": "1080p",
         "codec": "avc",
         "audio": ["Dolby Digital Plus"],
-        # "channels": ["2.0"],
+        "channels": ["2.0"],
         "group": "NTb",
         "extension": "mkv",
         "container": "mkv",
@@ -725,7 +725,7 @@ def parser():
         "languages": [],
         "resolution": "2160p",
         "codec": "hevc",
-        "audio": ["AC3", "Dolby Digital Plus"],
+        "audio": ["Dolby Digital Plus"],
         "channels": ["5.1"],
         "group": "DirtyHippie",
         "container": "mkv",
@@ -760,6 +760,7 @@ def parser():
         "quality": "PDTV",
         "codec": "avc",
         "audio": ["AAC"],
+        "channels": ["2.0"],
         "group": "BTN"
     }),
     ("www.1Tamilblasters.co - Guardians of the Galaxy Vol. 3 (2023) [4K IMAX UHD HEVC - BDRip - [Tam + Mal + Tel + Hin + Eng] - x264 - DDP5.1 (192Kbps) - 8.3GB - ESub].mkv", {
@@ -975,7 +976,7 @@ def parser():
         "resolution": "1080p",
         "quality": "HDTVRip",
         "codec": "avc",
-        "audio": ["AC3", "AAC"],
+        "audio": ["AAC"],
         "channels": ["5.1"],
         "group": "QRips",
         "size": "2.2GB"
@@ -1075,8 +1076,8 @@ def parser():
         "codec": "hevc",
         "container": "mkv",
         "audio": [
+            "Dolby Digital Plus",
             "Atmos",
-            "Dolby Digital Plus"
         ],
         "channels": [
             "5.1"
